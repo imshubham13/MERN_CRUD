@@ -1,0 +1,20 @@
+POST http://localhost:5000/student/signup
+content-type: application/json
+
+{
+    "name": "sample",
+    "email": "alex@gmail.com",
+    "phone":"9908876543",
+    "username":"alex",
+    "password":"123"
+}
+
+###
+GET http://localhost:5000/student/dispStudent
+
+###
+DELETE http://localhost:5000/student/delete/66f9333ecc64b381ea605e0e
+
+###
+GET http://localhost:5000/student/getOneStudent/66f93d44cc64b381ea605e64
+content-type: application/json
